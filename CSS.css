@@ -1,0 +1,164 @@
+.container-fluid {
+    background-image: url("https://i.ytimg.com/vi/M2uBtg_PzKg/maxresdefault.jpg");
+    background-size: 50%;
+    padding-top: 20px;
+  }
+  #container{
+    background-color: black;
+    background-image: url("https://i.ytimg.com/vi/M2uBtg_PzKg/maxresdefault.jpg");
+    background-size: 50%;
+    max-width: 80%;
+    margin: auto;
+  }
+  #banner{
+    background-image: url("https://i.ytimg.com/vi/M2uBtg_PzKg/maxresdefault.jpg");
+    background-size: 50%;
+  }
+  .navbar{
+    background-color: #e69500;
+    border-color: #e69500;
+    font-size: 20px;
+    letter-spacing: 0.17em;
+  }
+  .nav.navbar-nav>li>a{
+    color: white;
+  }
+  .navbar-default .navbar-brand{
+    color: white;
+    font-size: 25px;
+  }
+  img {
+    border-radius: 50%;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .profile-img{
+      border: 0.5vh solid #e69500;
+  }
+  #banner img{
+    min-width: 70px;
+  }
+  .blockquote {
+    color: white;
+  }
+  .vertical-center{
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  h1{
+    color: white;
+    font-weight: 20;
+    letter-spacing: 0.3vw;
+    font-size: 5vw;
+  }
+  .blockquote-footer{
+    color: #e69500;
+    font-size: 2vw;
+  }
+  h5{
+    color: white;
+    font-size: 20px;
+    margin: 15px 0 30px 0;
+  }
+  form{
+    width: 100%;
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .form-item{
+    position: relative;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e69500;
+  }
+  .form-item input, textarea{
+    position: relative;
+    font-size: 3vw;
+    width: 100%;
+    background: 0 0;
+    color: white;
+    border-color: transparent;
+    min-width: 100%;
+  }
+  hr{
+    border: 2px solid white;
+    width: 30vw;
+    margin-bottom: 30px;
+  }
+  p{
+    color: white;
+    line-height: 2em;
+  }
+  form p{
+    padding-top: 15px;
+  }
+  .helper{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  .skill-img{
+    vertical-align: middle;
+    max-width: 10%;
+    min-width: 70px;
+    border-radius: 0;
+  }
+  .frame{
+    white-space: nowrap;
+  }
+  form button{
+    background-color: #e69500;
+    color: white;
+    border: 0px;
+    width: 100%;
+    font-size: 25px;
+  }
+  .footer{
+    background-color: #e69500;
+    padding: 10px 0px 10px 0px;
+    box-shadow: 10px 4px 8px 6px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .footer p{
+    margin: 0;
+    font-size: 20px;
+  }
+  #skills, #projects, #contact{
+    padding-bottom: 100px
+  }
+  .social-media{
+    background-color: white;
+    width: 100px;
+    margin: auto;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  .social-media h3{
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 0px 0;
+  }
+  .media-icons{
+    padding: 10px 0 10px 0; 
+  }
+  .pre-footer-holder{
+    padding: 5px 0 5px 0;
+  }
+  .social-icon{
+    margin: 0 5px 0 5px;
+  }
+  a{
+    cursor: pointer;
+  }
+  textarea{
+    min-height: 200px;
+    max-width: 100%;
+  }
+  nav{
+     box-shadow: 10px 4px 8px 6px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  #contact{
+    
+  }
