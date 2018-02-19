@@ -30,12 +30,21 @@
       width: 400px;
       border-radius: 5px;
   }
+  @media(max-width: 480px){
+    .profile-img{
+      margin-top: 100px;
+    }
+  }
   #banner img{
     min-width: 70px;
   }
   .blockquote {
     color: white;
     margin-left: 50px;
+  }
+  .blockquote h1{
+    font-weight: 200;
+    text-align: left;
   }
   .vertical-center{
     min-height: 100%;
@@ -53,7 +62,8 @@
   .blockquote-footer{
     color: #e69500 !important;
     margin-top: 20px;
-    font-size: 2vw;
+    font-size: 100% !important;
+    text-align: left;
   }
   h5{
     color: white !important;
@@ -101,6 +111,7 @@
     vertical-align: middle;
     max-width: 10%;
     min-width: 70px;
+    margin-bottom: 100px;
   }
   form button{
     background-color: #e69500;
@@ -122,6 +133,9 @@
     margin-bottom: 100px;
     margin-top: 10%;
     margin-bottom: 10%;
+    width: 80%;
+    text-align: center;
+    margin: auto;
   }
   .social-media{
     margin: auto;
@@ -162,7 +176,14 @@ a:hover{
   .in-line-words{
     color:#e69500;
   }
-
-  #weather-app{
-    
+  .quote-div{
+    margin: 100px 0px 100px 0px;
+    width: 80%;
+    text-align: center;
+    margin: 100px auto 100px auto;
+  }
+  .social-media-head{
+    font-size: 3vh;
+    margin-bottom: 0px;
+    font-weight: 200;
   }
