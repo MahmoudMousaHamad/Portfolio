@@ -101,8 +101,6 @@
     vertical-align: middle;
     max-width: 10%;
     min-width: 70px;
-    margin-top: 10%;
-    margin-bottom: 10%;
   }
   form button{
     background-color: #e69500;
@@ -122,13 +120,11 @@
   }
   #skills, #projects, #contact{
     margin-bottom: 100px;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
   .social-media{
-    background-color: white;
-    width: 200px;
     margin: auto;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     font-size: 40px;
   }
 .media-icons a{
@@ -136,7 +132,6 @@
 }
 a:hover{
   text-decoration: none !important;
-  color: black !important;
 }
   .media-icons{
     padding: 10px 0 10px 0; 
@@ -166,4 +161,8 @@ a:hover{
   }
   .in-line-words{
     color:#e69500;
+  }
+
+  #weather-app{
+    
   }
